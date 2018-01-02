@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/all_recycler_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="这条路有点长"/>
+    <TextView
+        android:id="@+id/all_recycler_kind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="时尚体育"/>
+
+    <ImageView
+        android:id="@+id/all_recycler_image"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/all_recycler_title"
+        android:src="@mipmap/ic_launcher" />
+    <TextView
+        android:layout_below="@id/all_recycler_image"
+        android:id="@+id/all_recycler_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥300"/>
+
+    <TextView
+        android:layout_below="@id/all_recycler_money"
+        android:id="@+id/all_recycler_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="北京朝阳"/>
+</RelativeLayout>
